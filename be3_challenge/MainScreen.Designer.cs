@@ -74,11 +74,14 @@
             // btnInsereRegistro
             // 
             this.btnInsereRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInsereRegistro.Image = ((System.Drawing.Image)(resources.GetObject("btnInsereRegistro.Image")));
             this.btnInsereRegistro.Location = new System.Drawing.Point(12, 220);
             this.btnInsereRegistro.Name = "btnInsereRegistro";
             this.btnInsereRegistro.Size = new System.Drawing.Size(273, 47);
             this.btnInsereRegistro.TabIndex = 1;
             this.btnInsereRegistro.Text = "Insere Registro";
+            this.btnInsereRegistro.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnInsereRegistro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnInsereRegistro.UseVisualStyleBackColor = true;
             this.btnInsereRegistro.Click += new System.EventHandler(this.btnInsereRegistro_Click);
             // 
@@ -379,11 +382,14 @@
             // btnBuscaRegistro
             // 
             this.btnBuscaRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscaRegistro.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscaRegistro.Image")));
             this.btnBuscaRegistro.Location = new System.Drawing.Point(294, 220);
             this.btnBuscaRegistro.Name = "btnBuscaRegistro";
             this.btnBuscaRegistro.Size = new System.Drawing.Size(303, 47);
             this.btnBuscaRegistro.TabIndex = 2;
             this.btnBuscaRegistro.Text = "Buscar Registro";
+            this.btnBuscaRegistro.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnBuscaRegistro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnBuscaRegistro.UseVisualStyleBackColor = true;
             this.btnBuscaRegistro.Click += new System.EventHandler(this.btnBuscaRegistro_Click);
             // 
@@ -443,22 +449,28 @@
             // btnAtualizaRegistro
             // 
             this.btnAtualizaRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAtualizaRegistro.Image = ((System.Drawing.Image)(resources.GetObject("btnAtualizaRegistro.Image")));
             this.btnAtualizaRegistro.Location = new System.Drawing.Point(12, 273);
             this.btnAtualizaRegistro.Name = "btnAtualizaRegistro";
             this.btnAtualizaRegistro.Size = new System.Drawing.Size(273, 47);
             this.btnAtualizaRegistro.TabIndex = 3;
             this.btnAtualizaRegistro.Text = "Atualiza Registro";
+            this.btnAtualizaRegistro.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAtualizaRegistro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAtualizaRegistro.UseVisualStyleBackColor = true;
             this.btnAtualizaRegistro.Click += new System.EventHandler(this.btnAtualizaRegistro_Click);
             // 
             // btnLimparCampos
             // 
             this.btnLimparCampos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimparCampos.Image = ((System.Drawing.Image)(resources.GetObject("btnLimparCampos.Image")));
             this.btnLimparCampos.Location = new System.Drawing.Point(294, 273);
             this.btnLimparCampos.Name = "btnLimparCampos";
             this.btnLimparCampos.Size = new System.Drawing.Size(303, 47);
             this.btnLimparCampos.TabIndex = 4;
             this.btnLimparCampos.Text = "Limpar Campos";
+            this.btnLimparCampos.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnLimparCampos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLimparCampos.UseVisualStyleBackColor = true;
             this.btnLimparCampos.Click += new System.EventHandler(this.btnLimparCampos_Click);
             // 

@@ -545,7 +545,7 @@ namespace be3_challenge
             try
             {
                 regexStringNumber(txtMesValidade.Text);
-                if (string.IsNullOrEmpty(txtMesValidade.Text) || Convert.ToInt32(txtMesValidade.Text) > 12)
+                if (string.IsNullOrEmpty(txtMesValidade.Text) || Convert.ToInt32(txtMesValidade.Text) > 12 || Convert.ToInt32(txtMesValidade.Text) < 1)
                     msgParam += "Mês validade, ";
             }
             catch (Exception)
